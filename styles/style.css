@@ -13,8 +13,36 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #FFC3A1;
+  color: #D3756B;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #F0997D;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) no-repeat 27% center/cover;
+  opacity: 0.9;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #FFC3A1;
+  opacity: 0.9;
+  border-radius: 45px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #D3756B;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #F0997D;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=style.css.map */

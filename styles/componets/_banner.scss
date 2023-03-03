@@ -1,0 +1,29 @@
+@import '../abstract/variaveis';
+
+.banner{
+    background: url(../imagens/banner.jpeg) no-repeat 27% center / cover;
+    opacity: 0.9;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .inner-banner{
+        padding: 3rem;
+        background-color: $cor-terciaria;
+        opacity: 0.9;
+        border-radius: 45px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        h1{
+            font-size: $tamanho-do-texto;
+            color: $cor-primaria;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: $tamanho-do-texto / 2;
+            color: $cor-secundaria;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
