@@ -13,15 +13,15 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #D3756B;
+  color: #A75D5D;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #F0997D;
+  border-bottom: 2px solid #D3756B;
 }
 
 .banner {
   background: url(../imagens/banner.jpeg) no-repeat 27% center/cover;
-  opacity: 0.9;
+  opacity: 0.8;
   min-height: 350px;
   display: flex;
   justify-content: center;
@@ -37,12 +37,155 @@ nav ul li a:hover {
 }
 .banner .inner-banner h1 {
   font-size: 3rem;
-  color: #D3756B;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  color: #A75D5D;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
 .banner .inner-banner h2 {
   font-size: 1.5rem;
-  color: #F0997D;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color: #D3756B;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #D3756B;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 10px;
+  border-bottom: 6px solid #D3756B;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+#servicos .cards .card h5 {
+  font-size: 1.6666666667rem;
+  font-weight: 300;
+  margin: 25px 0 20px;
+  color: #A75D5D;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+#cupom {
+  background-color: #FFC3A1;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #A75D5D;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.6666666667rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #A75D5D;
+  outline: none;
+}
+#cupom button {
+  margin-top: 0.75rem;
+  outline: none;
+  border: 2px solid #A75D5D;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #D3756B;
+  color: #FFC3A1;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#cupom button:hover {
+  color: #D3756B;
+  background-color: #FFC3A1;
+  transform: scale(1.1);
+  transition: all 0.5s;
+  border-color: #D3756B;
+}
+
+#flor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+#flor .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 2rem;
+  border-left: 4px solid #FFC3A1;
+  padding-left: 2rem;
+}
+#flor .texto h3 {
+  font-size: 1.2rem;
+  color: #D3756B;
+  border-bottom: 2px solid #FFC3A1;
+  width: 180px;
+  font-weight: 300;
+}
+#flor .texto h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+#flor .texto p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #A75D5D;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #A75D5D, #D3756B, #FFC3A1, #FFC3A1, #D3756B, #A75D5D);
+}
+footer i {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
